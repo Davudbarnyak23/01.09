@@ -1,0 +1,25 @@
+section{
+	display:flex;
+	flex-direction: row ;
+}
+.lion-king {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.lion-king h1 {
+	color: #962da4;
+	font-size: 50px;
+	text-shadow: 0px 0px 20px #630f6b;
+}
+
+.lion-child p {
+	color:#091ce9;
+	font-size: 50px;
+	text-shadow: 0px 0px 20px #98e4f1;
+	
+}
+
+.lion-child p {
+	.lion-child{font-family: cursive;}
+       }

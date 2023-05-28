@@ -1,0 +1,46 @@
+<!Doctype HTML>
+<html>
+	<head>
+		<title>Селектори</title>
+		<meta charset="utf-8">
+		<style>
+			h1{font-family: 'Courier New', Courier, monospace;}
+			main > p {font-size: 10px;}
+			p {color: green;}
+			section > p {color: brown;}
+			p ~ div {color: blue;}
+			p + div {background-color: rgb(247, 178, 89);}
+			strong {background-color: blueviolet;}
+			.bold{font-size: 25px;color: cadetblue;}
+		</style>
+	</head>	
+	<body>		
+		<header>
+			<h1>Селектори</h1>	
+		</header>
+		<main>
+			<p>
+				Селектор - це частина CSS-правила, яка повідомляє браузеру, 
+				до якого елементу веб-сторінки буде застосований CSS стиль.
+			</p>
+			<section>
+				<div>Просто текст 1</div>
+				<p>Перший параграф</p>
+				<p class="bold">Други параграф</p>
+				<p>Третій параграф</p>
+				<div>
+					Просто текст 2
+					<p>Внутрішній параграф</p>
+				</div>
+				<div>Просто текст 3</div>
+				<p>Четвертий параграф</p>				
+				<p>Пятий параграф</p>
+				<div>Просто текст 4</div>
+				<div>Просто текст 5</div>
+			</section>			
+		</main>
+		<footer>
+			<p>Вивчаємо селектори</p>
+		</footer>
+	</body>
+</html>
